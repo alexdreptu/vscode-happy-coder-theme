@@ -1,0 +1,18 @@
+// Happy Coder is based on Monokai
+{
+	"name": "theme-happy-coder",
+	"version": "0.1.0",
+	"publisher": "alexdreptu",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "happy-coder",
+				"uiTheme": "vs-dark",
+				"path": "./themes/happy-coder-color-theme.json"
+			}
+		]
+	}
+}
