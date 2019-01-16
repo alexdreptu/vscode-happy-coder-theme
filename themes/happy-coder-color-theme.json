@@ -12,13 +12,10 @@
     "button.background": "#75715E",
     "editor.background": "#272822",
     "editor.foreground": "#ffffff",
-    // "editor.selectionBackground": "#5f527a", // to be deleted
     "editor.selectionBackground": "#5f527a",
     "editor.selectionForeground": "#ffffff", // not working yet
-    // "editorCursor.foreground": "#ffde73",
-    "editorCursor.foreground": "#ac9fc6",
-    // "editorCursor.background": "#000000",
-    "editorCursor.background": "#ffffff",
+    "editorCursor.foreground": "#ceb8f9",
+    "editorCursor.background": "#000000",
     "editorWarning.foreground": "#ffa880",
     "editorError.foreground": "#ff8080",
     "editorBracketMatch.border": "#ffde73",
@@ -120,8 +117,7 @@
       "scope": "string",
       "settings": {
         "fontStyle": "italic",
-        // "foreground": "#C3D98D"
-        "foreground": "#CBCCB3"
+        "foreground": "#c7d6a9"
       }
     },
     {
@@ -303,7 +299,7 @@
     {
       "scope": "meta.structure.dictionary.json string.quoted.double.json",
       "settings": {
-        "foreground": "#CBCCB3"
+        "foreground": "#c7d6a9"
       }
     },
     {
@@ -408,8 +404,7 @@
       "scope": "string.quoted.docstring.multi",
       "settings": {
         "fontStyle": "italic",
-        // "foreground": "#A69D85"
-        "foreground": "#cbccb3"
+        "foreground": "#c7d6a9"
       }
     },
     {
