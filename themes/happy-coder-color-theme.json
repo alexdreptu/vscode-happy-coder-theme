@@ -6,11 +6,12 @@
     "list.focusBackground": "#5f527a",
     "list.focusForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#414339",
-    "list.hoverBackground": "#272822",
+    "list.hoverBackground": "#292a22",
     "list.dropBackground": "#414339",
     "list.highlightForeground": "#75715E",
     "button.background": "#75715E",
-    "editor.background": "#272822",
+    // "editor.background": "#292a22",
+    "editor.background": "#292a22",
     "editor.foreground": "#ffffff",
     "editor.selectionBackground": "#5f527a",
     "editor.selectionForeground": "#ffffff", // not working yet
@@ -44,29 +45,29 @@
     "statusBar.foreground": "#ffffff",
     "statusBar.noFolderBackground": "#414339",
     "statusBar.debuggingBackground": "#75715E",
-    "activityBar.background": "#272822",
+    "activityBar.background": "#292a22",
     "activityBarBadge.foreground": "#f8f8f2",
     "activityBarBadge.background": "#75715E",
     "activityBar.foreground": "#f8f8f2",
     "activityBar.dropBackground": "#414339",
     "sideBar.background": "#20211C",
     "sideBar.foreground": "#ffffff",
-    "sideBarSectionHeader.background": "#272822",
+    "sideBarSectionHeader.background": "#292a22",
     "pickerGroup.foreground": "#75715E",
     "input.foreground": "#ffffff",
-    "input.background": "#272822",
+    "input.background": "#292a22",
     "input.border": "#ac9fc6",
     "inputOption.activeBorder": "#ac9fc6",
     "focusBorder": "#ac9fc6",
     "editorWidget.background": "#1e1f1c",
     "debugToolBar.background": "#1e1f1c",
-    "diffEditor.insertedTextBackground": "#66852880", // middle of #272822 and #a6e22e
-    "diffEditor.removedTextBackground": "#90274A80", // middle of #272822 and #f92672
-    "inputValidation.errorBackground": "#90274A", // middle of #272822 and #f92672
+    "diffEditor.insertedTextBackground": "#66852880", // middle of #292a22 and #a6e22e
+    "diffEditor.removedTextBackground": "#90274A80", // middle of #292a22 and #f92672
+    "inputValidation.errorBackground": "#90274A", // middle of #292a22 and #f92672
     "inputValidation.errorBorder": "#f92672",
-    "inputValidation.warningBackground": "#848528", // middle of #272822 and #e2e22e
+    "inputValidation.warningBackground": "#848528", // middle of #292a22 and #e2e22e
     "inputValidation.warningBorder": "#e2e22e",
-    "inputValidation.infoBackground": "#546190", // middle of #272822 and #819aff
+    "inputValidation.infoBackground": "#546190", // middle of #292a22 and #819aff
     "inputValidation.infoBorder": "#819aff",
     "editorHoverWidget.background": "#20211C",
     "editorHoverWidget.border": "#ac9fc6",
@@ -76,7 +77,7 @@
     "editorSuggestWidget.highlightForeground": "#afc0f4",
     "editorGroup.border": "#414339",
     "peekView.border": "#75715E",
-    "peekViewEditor.background": "#272822",
+    "peekViewEditor.background": "#292a22",
     "peekViewResult.background": "#1e1f1c",
     "peekViewTitle.background": "#1e1f1c",
     "peekViewResult.selectionBackground": "#674C80",
@@ -102,7 +103,7 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#272822",
+        "background": "#292a22",
         "foreground": "#ffffff"
       }
     },
@@ -118,6 +119,7 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#c7d6a9"
+        // "foreground": "#CBCCB3"
       }
     },
     {
@@ -404,7 +406,8 @@
       "scope": "string.quoted.docstring.multi",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c7d6a9"
+        // "foreground": "#c7d6a9"
+        "foreground": "#CBCCB3"
       }
     },
     {
