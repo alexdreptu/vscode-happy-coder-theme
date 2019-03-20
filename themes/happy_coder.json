@@ -299,7 +299,7 @@
     {
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#ffd599"
+        "foreground": "#ffc675"
       }
     },
     {
@@ -311,7 +311,8 @@
     {
       "scope": "constant.language",
       "settings": {
-        "foreground": "#80aaff"
+        // "foreground": "#80aaff"
+        "foreground": "#9af"
       }
     },
     {
@@ -345,12 +346,6 @@
       }
     },
     {
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#9cf"
-      }
-    },
-    {
       "scope": "storage",
       "settings": {
         "fontStyle": "",
@@ -358,10 +353,15 @@
       }
     },
     {
-      "name": "Storage type, class and functions definitions",
-      "scope": ["storage.type", "variable.language.special.self"],
+      "scope": [
+        "storage.type",
+        "variable.language.special.self",
+        "keyword",
+        "support.type",
+        "support.class"
+      ],
       "settings": {
-        "foreground": "#9cf"
+        "foreground": "#c8b3ff"
       }
     },
     {
@@ -383,22 +383,19 @@
       }
     },
     {
-      "scope": "entity.name.type, entity.name.class",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.name.function"
+      ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#afc0f4"
       }
     },
     {
       "scope": "entity.other.inherited-class",
       "settings": {
         "foreground": "#ffffff"
-      }
-    },
-    {
-      "scope": "entity.name.function",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#afc0f4"
       }
     },
     {
@@ -424,7 +421,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#ccb3ff"
+        "foreground": "#dfca9f"
       }
     },
     {
@@ -432,12 +429,6 @@
       "settings": {
         "fontStyle": "",
         "foreground": "#99b3ff"
-      }
-    },
-    {
-      "scope": "support.type, support.class",
-      "settings": {
-        "foreground": "#9cf"
       }
     },
     {
@@ -579,22 +570,15 @@
       }
     },
     {
-      "name": "Punctuation and operators",
       "scope": ["keyword.operator", "punctuation.separator"],
       "settings": {
-        "foreground": "#ffffb3"
+        "foreground": "#ff9"
       }
     },
     {
-      "scope": "punctuation.section.function",
+      "scope": ["punctuation.section.function", "punctuation.section.class"],
       "settings": {
-        "foreground": "#d9d96d"
-      }
-    },
-    {
-      "scope": "punctuation.section.class",
-      "settings": {
-        "foreground": "#d9d96d"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -670,16 +654,15 @@
       }
     },
     {
-      "name": "Control flow",
       "scope": ["keyword.control.flow", "keyword.control.conditional"],
       "settings": {
-        "foreground": "#b3b9ff"
+        "foreground": "#9bf"
       }
     },
     {
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#a9c7d6"
+        "foreground": "#9fcadf"
       }
     },
     {

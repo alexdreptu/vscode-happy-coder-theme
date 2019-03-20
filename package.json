@@ -1,7 +1,7 @@
 {
   "name": "happy-coder",
   "displayName": "happy-coder",
-  "description": "A dark VSCode color theme intended to strike a balance between colors and make developers happy",
+  "description": "A dark VSCode color theme intended to strike a balance between colors and make it clear for the eyes",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.32.0"
