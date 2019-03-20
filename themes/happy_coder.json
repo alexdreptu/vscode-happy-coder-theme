@@ -311,7 +311,6 @@
     {
       "scope": "constant.language",
       "settings": {
-        // "foreground": "#80aaff"
         "foreground": "#9af"
       }
     },
@@ -579,6 +578,24 @@
       "scope": ["punctuation.section.function", "punctuation.section.class"],
       "settings": {
         "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "support.type.metaclass.python",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": ["keyword.control.ruby", "keyword.other.special-method.ruby"],
+      "settings": {
+        "foreground": "#9bf"
+      }
+    },
+    {
+      "scope": "variable.other.constant.ruby",
+      "settings": {
+        "foreground": "#9af"
       }
     },
     {
