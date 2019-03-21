@@ -287,7 +287,7 @@
       "scope": "string",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c7d6a9"
+        "foreground": "#c8d9a6"
       }
     },
     {
@@ -309,9 +309,13 @@
       }
     },
     {
-      "scope": "constant.language",
+      "scope": [
+        "constant.language",
+        "constant.other",
+        "variable.other.constant"
+      ],
       "settings": {
-        "foreground": "#9af"
+        "foreground": "#80aaff"
       }
     },
     {
@@ -321,7 +325,7 @@
       }
     },
     {
-      "scope": "constant.character, constant.other",
+      "scope": "constant.character",
       "settings": {
         "foreground": "#99b3ff"
       }
@@ -420,7 +424,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#dfca9f"
+        "foreground": "#e2cb9c"
       }
     },
     {
@@ -593,12 +597,6 @@
       }
     },
     {
-      "scope": "variable.other.constant.ruby",
-      "settings": {
-        "foreground": "#9af"
-      }
-    },
-    {
       "scope": "punctuation.section.vector",
       "settings": {
         "foreground": "#c0f0ff"
@@ -671,9 +669,13 @@
       }
     },
     {
-      "scope": ["keyword.control.flow", "keyword.control.conditional"],
+      "scope": [
+        "keyword.control.ruby",
+        "keyword.control.flow",
+        "keyword.control.conditional"
+      ],
       "settings": {
-        "foreground": "#9bf"
+        "foreground": "#8fcfef"
       }
     },
     {
