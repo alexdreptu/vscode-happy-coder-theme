@@ -315,7 +315,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#80aaff"
+        "foreground": "#9bf"
       }
     },
     {
@@ -361,7 +361,8 @@
         "variable.language.special.self",
         "keyword",
         "support.type",
-        "support.class"
+        "support.class",
+        "punctuation.definition.decorator.python"
       ],
       "settings": {
         "foreground": "#c8b3ff"
@@ -573,17 +574,23 @@
       }
     },
     {
-      "scope": ["keyword.operator", "punctuation.separator"],
+      "scope": [
+        "keyword.operator",
+        "punctuation.separator",
+        "punctuation.section.function",
+        "punctuation.section.class"
+      ],
       "settings": {
         "foreground": "#ff9"
       }
     },
-    {
-      "scope": ["punctuation.section.function", "punctuation.section.class"],
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
+    // {
+    // "scope": ["punctuation.section.function", "punctuation.section.class"],
+    // "settings": {
+    // "foreground": "#ffffff"
+    // "foreground": "#ff9"
+    // }
+    // },
     {
       "scope": "support.type.metaclass.python",
       "settings": {
