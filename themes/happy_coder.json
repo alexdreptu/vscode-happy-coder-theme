@@ -98,6 +98,8 @@
     "tab.inactiveBackground": "#302f32",
     "tab.inactiveForeground": "#a6a6a6",
     "tab.unfocusedActiveForeground": "#ffffff",
+    "terminal.background": "#282729",
+    "terminal.foreground": "#ffffff",
     "terminal.ansiBlack": "#333333",
     "terminal.ansiBlue": "#819affbf",
     "terminal.ansiBrightBlack": "#666666",
@@ -106,7 +108,7 @@
     "terminal.ansiBrightGreen": "#a6e22e",
     "terminal.ansiBrightMagenta": "#ae81ff",
     "terminal.ansiBrightRed": "#f92672",
-    "terminal.ansiBrightWhite": "#f8f8f2",
+    "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightYellow": "#e2e22e",
     "terminal.ansiCyan": "#66d9efbf",
     "terminal.ansiGreen": "#a6e22ebf",
@@ -263,9 +265,7 @@
     //"tab.unfocusedActiveModifiedBorder": "#3399cc80",
     //"tab.unfocusedInactiveForeground": "#a6a6a680",
     //"tab.unfocusedInactiveModifiedBorder": "#3399cc40",
-    //"terminal.background": "#282729",
     //"terminal.border": "#ac9fc6",
-    //"terminal.foreground": "#cccccc",
     //"terminal.selectionBackground": "#ffffff40",
     //"textBlockQuote.background": "#7f7f7f1a",
     //"textBlockQuote.border": "#007acc80",
@@ -362,9 +362,12 @@
         "keyword",
         "support.type",
         "support.class",
-        "punctuation.definition.decorator.python"
+        "storage.modifier.shell",
+        "entity.name.tag.yaml"
+        // "punctuation.definition.decorator.python"
       ],
       "settings": {
+        "fontStyle": "",
         "foreground": "#c8b3ff"
       }
     },
@@ -578,19 +581,13 @@
         "keyword.operator",
         "punctuation.separator",
         "punctuation.section.function",
-        "punctuation.section.class"
+        "punctuation.section.class",
+        "punctuation.definition.decorator.python"
       ],
       "settings": {
         "foreground": "#ff9"
       }
     },
-    // {
-    // "scope": ["punctuation.section.function", "punctuation.section.class"],
-    // "settings": {
-    // "foreground": "#ffffff"
-    // "foreground": "#ff9"
-    // }
-    // },
     {
       "scope": "support.type.metaclass.python",
       "settings": {
@@ -598,7 +595,11 @@
       }
     },
     {
-      "scope": ["keyword.control.ruby", "keyword.other.special-method.ruby"],
+      "scope": [
+        "keyword.control.ruby",
+        "keyword.other.special-method.ruby",
+        "keyword.control.crystal"
+      ],
       "settings": {
         "foreground": "#9bf"
       }
@@ -678,6 +679,7 @@
     {
       "scope": [
         "keyword.control.ruby",
+        "keyword.control.crystal",
         "keyword.control.flow",
         "keyword.control.conditional"
       ],
