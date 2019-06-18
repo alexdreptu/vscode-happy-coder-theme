@@ -312,7 +312,9 @@
       "scope": [
         "constant.language",
         "constant.other",
-        "variable.other.constant"
+        "variable.other.constant",
+        "storage.modifier.const.rust",
+        "storage.modifier.static.rust"
       ],
       "settings": {
         "foreground": "#9bf"
@@ -363,8 +365,9 @@
         "support.type",
         "support.class",
         "storage.modifier.shell",
-        "entity.name.tag.yaml"
-        // "punctuation.definition.decorator.python"
+        "entity.name.tag.yaml",
+        // "punctuation.definition.decorator.python",
+        "storage.class.std.rust"
       ],
       "settings": {
         "fontStyle": "",
@@ -570,7 +573,11 @@
       }
     },
     {
-      "scope": "string.quoted.docstring.multi",
+      "scope": [
+        "string.quoted.docstring.multi",
+        "comment.block.documentation.rust",
+        "comment.line.documentation.rust"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#CBCCB3"
@@ -681,7 +688,8 @@
         "keyword.control.ruby",
         "keyword.control.crystal",
         "keyword.control.flow",
-        "keyword.control.conditional"
+        "keyword.control.conditional",
+        "keyword.control.rust"
       ],
       "settings": {
         "foreground": "#8fcfef"
