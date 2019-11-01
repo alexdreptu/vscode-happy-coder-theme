@@ -32,7 +32,7 @@
     "editorIndentGuide.activeBackground": "#a6a5a6",
     "editorIndentGuide.background": "#464741",
     "editorInfo.foreground": "#80ff80",
-    "editorLineNumber.activeForeground": "#cbccb3",
+    "editorLineNumber.activeForeground": "#e8d5b0",
     "editorLineNumber.foreground": "#a6a6a6",
     "editorSuggestWidget.background": "#302f32",
     "editorSuggestWidget.border": "#ac9fc6",
@@ -396,7 +396,8 @@
       "scope": [
         "entity.name.type",
         "entity.name.class",
-        "entity.name.function"
+        "entity.name.function",
+        "support.function.go"
       ],
       "settings": {
         "foreground": "#afc0f4"
