@@ -20,7 +20,8 @@
     "editor.lineHighlightBorder": "#ac9fc6",
     "editor.selectionBackground": "#75609f",
     "editor.selectionForeground": "#ffffff",
-    "editorBracketMatch.border": "#ceb8f9",
+    "editorBracketMatch.background": "#606a9f",
+    "editorBracketMatch.border": "#606a9f",
     "editorCursor.background": "#000000",
     "editorCursor.foreground": "#ceb8f9",
     "editorError.foreground": "#ff8080",
@@ -121,7 +122,9 @@
     "titleBar.border": "#363437",
     "titleBar.inactiveBackground": "#363437",
     "titleBar.inactiveForeground": "#ffffff",
-    "widget.shadow": "#363437"
+    "widget.shadow": "#363437",
+    "activityBar.activeBorder": "#75609f",
+    "activityBar.activeBackground": "#75609f"
     //"activityBar.inactiveForeground": "#f8f8f299",
     //"badge.background": "#4d4d4d",
     //"badge.foreground": "#ffffff",
