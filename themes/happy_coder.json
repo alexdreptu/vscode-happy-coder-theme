@@ -28,14 +28,14 @@
     "editorGroup.border": "#414339",
     "editorGroup.dropBackground": "#41433980",
     "editorGroupHeader.tabsBackground": "#363437",
-    "editorHoverWidget.background": "#302f32",
+    "editorHoverWidget.background": "#353437",
     "editorHoverWidget.border": "#ac9fc6",
     "editorIndentGuide.activeBackground": "#a6a5a6",
     "editorIndentGuide.background": "#464741",
     "editorInfo.foreground": "#80ff80",
     "editorLineNumber.activeForeground": "#e8d5b0",
     "editorLineNumber.foreground": "#a6a6a6",
-    "editorSuggestWidget.background": "#302f32",
+    "editorSuggestWidget.background": "#353437",
     "editorSuggestWidget.border": "#ac9fc6",
     "editorSuggestWidget.highlightForeground": "#ccb3ff",
     "editorSuggestWidget.selectedBackground": "#8b70c2",
@@ -60,7 +60,7 @@
     "list.highlightForeground": "#ccb3ff",
     "list.hoverBackground": "#282729",
     "list.inactiveSelectionBackground": "#414339",
-    "menu.background": "#302f32",
+    "menu.background": "#353437",
     "menu.border": "#ac9fc6",
     "menu.foreground": "#ffffff",
     "menu.selectionBackground": "#8b70c2",
@@ -89,14 +89,14 @@
     "sideBar.background": "#2e2d2f",
     "sideBar.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#363437",
-    "statusBar.background": "#363437",
+    "statusBar.background": "#353437",
     "statusBar.debuggingBackground": "#75715e",
     "statusBar.foreground": "#ffffff",
     "statusBar.noFolderBackground": "#363437",
     "tab.activeBackground": "#8b70c2",
     "tab.activeForeground": "#ffffff",
     "tab.border": "#363437",
-    "tab.inactiveBackground": "#302f32",
+    "tab.inactiveBackground": "#353437",
     "tab.inactiveForeground": "#a6a6a6",
     "tab.unfocusedActiveForeground": "#ffffff",
     "terminal.background": "#282729",
@@ -317,7 +317,8 @@
         "constant.other",
         "variable.other.constant",
         "storage.modifier.const.rust",
-        "storage.modifier.static.rust"
+        "storage.modifier.static.rust",
+        "keyword.boolean.nim"
       ],
       "settings": {
         "foreground": "#9bf"
@@ -362,19 +363,36 @@
     },
     {
       "scope": [
+        "keyword",
         "storage.type",
         "variable.language.special.self",
-        "keyword",
+        "storage.modifier.shell",
+        "entity.name.tag.yaml",
+        // "punctuation.definition.decorator.python",
+        "storage.class.std.rust",
+        "variable.parameter.function.language.special.self",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ccb3ff"
+      }
+    },
+    {
+      "scope": [
         "support.type",
         "support.class",
         "storage.modifier.shell",
         "entity.name.tag.yaml",
-        // "punctuation.definition.decorator.python",
-        "storage.class.std.rust"
+        "storage.type.string.go",
+        "storage.type.numeric.go",
+        "storage.class.std.rust",
+        "storage.type.core.rust",
+        "storage.type.concrete.nim",
+        "support.type.nim",
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#c8b3ff"
+        "foreground": "#a8a8ff"
       }
     },
     {
@@ -432,7 +450,10 @@
       }
     },
     {
-      "scope": "support.function",
+      "scope": [
+        "support.function",
+        "keyword.other.common.function.nim"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#e2cb9c"
@@ -596,7 +617,7 @@
         "punctuation.definition.decorator.python"
       ],
       "settings": {
-        "foreground": "#ff9"
+        "foreground": "#f0f0a8"
       }
     },
     {
@@ -607,9 +628,7 @@
     },
     {
       "scope": [
-        "keyword.control.ruby",
         "keyword.other.special-method.ruby",
-        "keyword.control.crystal"
       ],
       "settings": {
         "foreground": "#9bf"
@@ -693,7 +712,8 @@
         "keyword.control.crystal",
         "keyword.control.flow",
         "keyword.control.conditional",
-        "keyword.control.rust"
+        "keyword.control.rust",
+        "keyword.control.nim"
       ],
       "settings": {
         "foreground": "#8fcfef"
@@ -706,34 +726,22 @@
       }
     },
     {
-      "scope": "constant.character.format.placeholder.other",
+      "scope": [
+        "constant.character.format.placeholder.other",
+        "constant.other.rune.go",
+        "meta.template.expression.nim",
+        "punctuation.definition.template-expression.begin.nim",
+        "punctuation.definition.template-expression.end.nim"
+      ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#D1AED9"
-      }
-    },
-    {
-      "scope": "constant.other.placeholder",
-      "settings": {
-        "foreground": "#bda6ff"
+        "foreground": "#f0c0a8"
       }
     },
     {
       "scope": "keyword.operator.address",
       "settings": {
         "foreground": "#d9d96d"
-      }
-    },
-    {
-      "scope": "keyword.operator.logical",
-      "settings": {
-        "foreground": "#d9d96d"
-      }
-    },
-    {
-      "scope": "variable.parameter.function.language.special.self",
-      "settings": {
-        "foreground": "#bda6ff"
       }
     },
     {
@@ -761,7 +769,10 @@
       }
     },
     {
-      "scope": "meta.function-call.generic",
+      "scope": [
+        "meta.function-call.generic",
+        "support.function.any-method.nim"
+      ],
       "settings": {
         "foreground": "#afc0f4"
       }
@@ -797,9 +808,12 @@
       }
     },
     {
-      "scope": "meta.fstring.python",
+      "scope": [
+        "meta.fstring.python",
+        "constant.other.placeholder",
+      ],
       "settings": {
-        "foreground": "#d0b5e3"
+        "foreground": "#f0c0a8"
       }
     },
     {
