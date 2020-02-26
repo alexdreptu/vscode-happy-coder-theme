@@ -30,7 +30,7 @@
     "editorGroupHeader.tabsBackground": "#363437",
     "editorHoverWidget.background": "#353437",
     "editorHoverWidget.border": "#ac9fc6",
-    "editorIndentGuide.activeBackground": "#a6a5a6",
+    "editorIndentGuide.activeBackground": "#c0bfc0",
     "editorIndentGuide.background": "#464741",
     "editorInfo.foreground": "#80ff80",
     "editorLineNumber.activeForeground": "#e8d5b0",
@@ -283,7 +283,7 @@
       "scope": "comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#A6A5A6"
+        "foreground": "#c0bfc0"
       }
     },
     {
@@ -601,7 +601,8 @@
       "scope": [
         "string.quoted.docstring.multi",
         "comment.block.documentation.rust",
-        "comment.line.documentation.rust"
+        "comment.line.documentation.rust",
+        "comment.line.number-sign.doc-comment.nim"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -617,7 +618,7 @@
         "punctuation.definition.decorator.python"
       ],
       "settings": {
-        "foreground": "#f0f0a8"
+        "foreground": "#e8e8b0"
       }
     },
     {
