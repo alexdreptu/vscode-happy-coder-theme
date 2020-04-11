@@ -32,7 +32,7 @@
     "editorGroupHeader.tabsBackground": "#3b393c",
     "editorHoverWidget.background": "#3a393c",
     "editorHoverWidget.foreground": "#ffffff",
-    "editorHoverWidget.border": "#ac9fc6",
+    "editorHoverWidget.border": "#7e7c83",
     "editorIndentGuide.activeBackground": "#999",
     "editorIndentGuide.background": "#595959",
     "editorInfo.foreground": "#80ff80",
@@ -52,6 +52,8 @@
     "input.background": "#2e2d2f",
     "input.border": "#7e7c83",
     "input.foreground": "#ffffff",
+    "quickInput.foreground": "#ffffff",
+    "quickInput.background": "#3a393c",
     "inputOption.activeBorder": "#ac9fc6",
     "inputValidation.errorBackground": "#90274a",
     "inputValidation.errorBorder": "#f92672",
@@ -297,7 +299,10 @@
       }
     },
     {
-      "scope": "string",
+      "scope": [
+        "string",
+        "constant.other.rune.go"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#c8d9a6"
@@ -331,13 +336,7 @@
         "keyword.boolean.nim"
       ],
       "settings": {
-        "foreground": "#9bf"
-      }
-    },
-    {
-      "scope": "constant.other.rune",
-      "settings": {
-        "foreground": "#CE80FF"
+        "foreground": "#80aaff"
       }
     },
     {
@@ -391,6 +390,8 @@
       "scope": [
         "support.type",
         "support.class",
+        "entity.name.type.go",
+        "storage.type.boolean.go",
         "storage.modifier.shell",
         "entity.name.tag.yaml",
         "storage.type.string.go",
@@ -431,7 +432,7 @@
         "support.function.go"
       ],
       "settings": {
-        "foreground": "#afc0f4"
+        "foreground": "#99c3ff"
       }
     },
     {
@@ -719,6 +720,7 @@
     },
     {
       "scope": [
+        "keyword.control.go",
         "keyword.control.ruby",
         "keyword.control.crystal",
         "keyword.control.flow",
@@ -739,7 +741,6 @@
     {
       "scope": [
         "constant.character.format.placeholder.other",
-        "constant.other.rune.go",
         "meta.template.expression.nim",
         "punctuation.definition.template-expression.begin.nim",
         "punctuation.definition.template-expression.end.nim"
@@ -785,7 +786,7 @@
         "support.function.any-method.nim"
       ],
       "settings": {
-        "foreground": "#afc0f4"
+        "foreground": "#99c3ff"
       }
     },
     {
