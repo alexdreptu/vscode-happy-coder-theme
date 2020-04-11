@@ -629,7 +629,7 @@
         "punctuation.definition.decorator.python"
       ],
       "settings": {
-        "foreground": "#e8e8b0"
+        "foreground": "#ff9"
       }
     },
     {
@@ -729,7 +729,7 @@
         "keyword.control.nim"
       ],
       "settings": {
-        "foreground": "#8fcfef"
+        "foreground": "#80d4ff"
       }
     },
     {
