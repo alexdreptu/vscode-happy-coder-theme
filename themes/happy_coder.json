@@ -395,6 +395,7 @@
         "storage.modifier.shell",
         "entity.name.tag.yaml",
         "storage.type.string.go",
+        "storage.type.error.go",
         "storage.type.numeric.go",
         "storage.class.std.rust",
         "storage.type.core.rust",
