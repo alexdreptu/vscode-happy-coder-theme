@@ -78,10 +78,11 @@
     "menubar.selectionBackground": "#8b70c2",
     "menubar.selectionBorder": "#3b393c",
     "menubar.selectionForeground": "#ffffff",
-    "notificationCenter.border": "#ac9fc6",
+    "notificationCenter.border": "#7e7c83",
     "notifications.background": "#3b393c",
-    "notifications.border": "#7e7c83",
     "notifications.foreground": "#ffffff",
+    "notifications.border": "#7e7c83",
+    "notificationToast.border": "#7e7c83",
     "panel.border": "#7e7c83",
     "panelInput.border": "#7e7c83",
     "panelTitle.activeBorder": "#ac9fc6",
@@ -109,7 +110,7 @@
     "tab.activeBorder": "#7e7c83",
     "tab.activeBorderTop": "#7e7c83",
     "tab.border": "#7e7c83",
-    "tab.hoverBorder": "#8b70c2",
+    "tab.hoverBorder": "#7e7c83",
     "tab.inactiveBackground": "#3a393c",
     "tab.inactiveForeground": "#b3b3b3",
     "tab.unfocusedActiveForeground": "#ffffff",
@@ -317,7 +318,7 @@
     {
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#ffc675"
+        "foreground": "#ffca80"
       }
     },
     {
