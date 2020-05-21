@@ -631,7 +631,15 @@
         "punctuation.definition.decorator.python"
       ],
       "settings": {
-        "foreground": "#ff9"
+        "foreground": "#fff2b3"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.logical.python",
+      ],
+      "settings": {
+        "foreground": "#ffb3cc",
       }
     },
     {
@@ -728,7 +736,8 @@
         "keyword.control.flow",
         "keyword.control.conditional",
         "keyword.control.rust",
-        "keyword.control.nim"
+        "keyword.control.nim",
+        "keyword.control.dart",
       ],
       "settings": {
         "foreground": "#80d4ff"
@@ -827,7 +836,7 @@
         "constant.other.placeholder",
       ],
       "settings": {
-        "foreground": "#f0c0a8"
+        "foreground": "#ffccb3"
       }
     },
     {
