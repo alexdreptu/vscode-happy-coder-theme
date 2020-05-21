@@ -389,6 +389,15 @@
     },
     {
       "scope": [
+        "storage.type.string.python",
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ccb3ff"
+      }
+    },
+    {
+      "scope": [
         "support.type",
         "support.class",
         "entity.name.type.go",
@@ -836,7 +845,25 @@
         "constant.other.placeholder",
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#ffccb3"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.format.placeholder.other.python"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#fff2b3"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.arguments"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
       }
     },
     {
