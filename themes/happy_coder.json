@@ -648,7 +648,7 @@
         "keyword.operator.logical.python",
       ],
       "settings": {
-        "foreground": "#ffb3cc",
+        "foreground": "#ff9ebe",
       }
     },
     {
