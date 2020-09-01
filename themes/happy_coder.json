@@ -23,9 +23,9 @@
     "editor.selectionBackground": "#8b70c2",
     "editor.selectionForeground": "#ffffff",
     "editorBracketMatch.background": "#58575c",
-    "editorBracketMatch.border": "#999",
+    "editorBracketMatch.border": "#ffffff",
     "editorCursor.background": "#000000",
-    "editorCursor.foreground": "#ffd2b3",
+    "editorCursor.foreground": "#ffffff",
     "editorError.foreground": "#ff8080",
     "editorGroup.border": "#414339",
     "editorGroup.dropBackground": "#41433980",
@@ -36,8 +36,8 @@
     "editorIndentGuide.activeBackground": "#999",
     "editorIndentGuide.background": "#595959",
     "editorInfo.foreground": "#80ff80",
-    "editorLineNumber.activeForeground": "#e8d5b0",
-    "editorLineNumber.foreground": "#a6a6a6",
+    "editorLineNumber.foreground": "#949494",
+    "editorLineNumber.activeForeground": "#d9d9d9",
     "editorSuggestWidget.background": "#3a393c",
     "editorSuggestWidget.border": "#7e7c83",
     "editorSuggestWidget.highlightForeground": "#ffd2b3",
@@ -138,7 +138,7 @@
     "titleBar.border": "#7e7c83",
     "titleBar.inactiveBackground": "#3b393c",
     "titleBar.inactiveForeground": "#ffffff",
-    "widget.shadow": "#3b393c",
+    "widget.shadow": "#1a1a1a",
     "activityBar.activeBorder": "#8b70c2",
     "activityBar.activeBackground": "#8b70c2",
     "checkbox.border": "#7e7c83"
@@ -447,6 +447,23 @@
       }
     },
     {
+      "scope": [
+        "support.function",
+        "support.function.builtin.python",
+      ],
+      "settings": {
+        "foreground": "#c6d98c"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.decorator.python",
+      ],
+      "settings": {
+        "foreground": "#ffb399",
+      }
+    },
+    {
       "scope": "entity.other.inherited-class",
       "settings": {
         "foreground": "#ffffff"
@@ -473,7 +490,6 @@
     },
     {
       "scope": [
-        "support.function",
         "keyword.other.common.function.nim"
       ],
       "settings": {
@@ -646,6 +662,7 @@
     {
       "scope": [
         "keyword.operator.logical.python",
+        "keyword.operator.sizeof.c"
       ],
       "settings": {
         "foreground": "#ff9ebe",
@@ -783,7 +800,10 @@
       }
     },
     {
-      "scope": "storage.modifier.import",
+      "scope": [
+        "storage.modifier.import",
+        "storage.modifier.array.bracket.square",
+      ],
       "settings": {
         "foreground": "#ffffff"
       }
