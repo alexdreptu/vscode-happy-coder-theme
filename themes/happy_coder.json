@@ -891,6 +891,40 @@
       "settings": {
         "foreground": "#ffffff"
       }
-    }
+    },
+    {
+      "scope": [
+        "meta.function.lambda.parameters.python",
+        "punctuation.parenthesis.begin.python",
+        "punctuation.parenthesis.end.python",
+        "punctuation.definition.parameters.begin.python",
+        "punctuation.definition.parameters.end.python",
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python",
+        "punctuation.definition.list.begin.python",
+        "punctuation.definition.list.end.python",
+        "punctuation.definition.dict.begin.python",
+        "punctuation.definition.dict.end.python",
+        "punctuation.definition.inheritance.begin.python",
+        "punctuation.definition.inheritance.end.python",
+        "punctuation.definition.begin.bracket.round.go",
+        "punctuation.definition.end.bracket.round.go",
+        "punctuation.definition.begin.bracket.curly.go",
+        "punctuation.definition.end.bracket.curly.go",
+        "punctuation.definition.bracket.square.go",
+        "punctuation.definition.array.begin.json",
+        "punctuation.definition.array.end.json",
+        "punctuation.definition.dictionary.begin.json",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.definition.logical-expression.shell",
+        "punctuation.definition.subshell.shell",
+        "meta.function.shell",
+        "constant.character.brace",
+        "constant.character.paren"
+      ],
+      "settings": {
+        "foreground": "#b3e5ff",
+      }
+    },
   ]
 }
