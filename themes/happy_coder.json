@@ -404,7 +404,6 @@
         "storage.type",
         "storage.modifier.shell",
         "entity.name.tag.yaml",
-        // "punctuation.definition.decorator.python",
         "storage.class.std.rust",
       ],
       "settings": {
@@ -440,7 +439,8 @@
         "entity.name.type.rust",
         "entity.name.type.primitive.rust",
         "entity.name.type.numeric.rust",
-        "entity.name.type.declaration.rust"
+        "entity.name.type.declaration.rust",
+        "entity.name.tag.html"
       ],
       "settings": {
         "fontStyle": "",
@@ -504,12 +504,6 @@
       "scope": "variable.parameter",
       "settings": {
         "foreground": "#ffffff"
-      }
-    },
-    {
-      "scope": "entity.name.tag",
-      "settings": {
-        "foreground": "#bda6ff"
       }
     },
     {
@@ -678,6 +672,7 @@
         "punctuation.section.function",
         "punctuation.section.class",
         "punctuation.definition.decorator.python",
+        "constant.other.ellipsis",
         "keyword.control.flow.block-scalar.literal.yaml",
         "keyword.control.flow.block-scalar.folded.yaml"
       ],
@@ -864,12 +859,6 @@
       }
     },
     {
-      "scope": "entity.name.tag.html",
-      "settings": {
-        "foreground": "#bda6ff"
-      }
-    },
-    {
       "scope": "entity.name.tag.block.any.html",
       "settings": {
         "foreground": "#bda6ff"
@@ -936,6 +925,7 @@
         "punctuation.definition.dictionary.end.json",
         "punctuation.definition.logical-expression.shell",
         "punctuation.definition.subshell.shell",
+        "punctuation.definition.tag",
         "meta.function.shell",
         "constant.character.brace",
         "constant.character.paren"
