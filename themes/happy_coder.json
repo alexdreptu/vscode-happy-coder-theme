@@ -337,7 +337,8 @@
         "variable.other.constant",
         "storage.modifier.const.rust",
         "storage.modifier.static.rust",
-        "keyword.boolean.nim"
+        "keyword.boolean.nim",
+        "support.constant.property-value"
       ],
       "settings": {
         "foreground": "#66bfff"
@@ -379,8 +380,10 @@
         "keyword.function",
         "storage.type.function",
         "storage.type.class.python",
-        "storage.type.function",
         "storage.type.class",
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id",
+        "punctuation.definition.entity"
       ],
       "settings": {
         "fontStyle": "",
@@ -470,7 +473,8 @@
         "entity.name.type",
         "entity.name.class",
         "entity.name.function",
-        "support.function.go"
+        "support.function.go",
+        "support.function.misc"
       ],
       "settings": {
         "foreground": "#b3ccff",
@@ -669,12 +673,15 @@
       "scope": [
         "keyword.operator",
         "punctuation.separator",
-        "punctuation.section.function",
         "punctuation.section.class",
         "punctuation.definition.decorator.python",
         "constant.other.ellipsis",
         "keyword.control.flow.block-scalar.literal.yaml",
-        "keyword.control.flow.block-scalar.folded.yaml"
+        "keyword.control.flow.block-scalar.folded.yaml",
+        "entity.name.tag.reference",
+        "punctuation.terminator.rule",
+        "punctuation.separator.key-value",
+        "keyword.other.unit.percentage",
       ],
       "settings": {
         "foreground": "#fff2b3"
@@ -687,6 +694,14 @@
       ],
       "settings": {
         "foreground": "#ff9ebe",
+      }
+    },
+    {
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#b3b3ff"
       }
     },
     {
@@ -928,7 +943,10 @@
         "punctuation.definition.tag",
         "meta.function.shell",
         "constant.character.brace",
-        "constant.character.paren"
+        "constant.character.paren",
+        "punctuation.section.property-list",
+        "punctuation.section.function",
+        "punctuation.definition.attribute-selector",
       ],
       "settings": {
         "foreground": "#b3e5ff",
