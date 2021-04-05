@@ -54,6 +54,7 @@
     "input.foreground": "#ffffff",
     "quickInput.foreground": "#ffffff",
     "quickInput.background": "#3a393c",
+    "quickInput.list.focusBackground": "#8b70c2",
     "inputOption.activeBorder": "#ac9fc6",
     "inputValidation.errorBackground": "#90274a",
     "inputValidation.errorBorder": "#f92672",
@@ -319,7 +320,12 @@
       }
     },
     {
-      "scope": "constant.numeric",
+      "scope": [
+        "constant.numeric",
+        "keyword.other.unit.exponent.decimal",
+        "keyword.other.unit.hexadecimal",
+        "storage.type.number",
+      ],
       "settings": {
         "foreground": "#ffca80"
       }
@@ -335,13 +341,16 @@
         "constant.language",
         "constant.other",
         "variable.other.constant",
+        "constant.other.caps",
         "storage.modifier.const.rust",
         "storage.modifier.static.rust",
         "keyword.boolean.nim",
-        "support.constant.property-value"
+        "support.constant.property-value",
+        "constant.character.entity.named",
       ],
       "settings": {
-        "foreground": "#66bfff"
+        // "foreground": "#66bfff"
+        "foreground": "#4dc3ff"
       }
     },
     {
@@ -383,7 +392,8 @@
         "storage.type.class",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.id",
-        "punctuation.definition.entity"
+        "punctuation.definition.entity",
+        "storage.modifier.java",
       ],
       "settings": {
         "fontStyle": "",
@@ -408,6 +418,18 @@
         "storage.modifier.shell",
         "entity.name.tag.yaml",
         "storage.class.std.rust",
+        "keyword.other.import.java",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ccb3ff"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier.permits.java",
+        "storage.modifier.extends.java",
+        "storage.modifier.implements.java",
       ],
       "settings": {
         "fontStyle": "",
@@ -443,7 +465,16 @@
         "entity.name.type.primitive.rust",
         "entity.name.type.numeric.rust",
         "entity.name.type.declaration.rust",
-        "entity.name.tag.html"
+        "entity.name.tag.html",
+        "entity.name.function.target.makefile",
+        "storage.type.java",
+        "storage.type.primitive.java",
+        "storage.type.object.array.java",
+        "storage.type.generic.java",
+        "storage.type.primitive.array.java",
+        "entity.name.tag.localname.xml",
+        "variable.key.toml",
+        "variable.key.table.toml",
       ],
       "settings": {
         "fontStyle": "",
@@ -485,6 +516,8 @@
         "support.function",
         "support.function.builtin.python",
         "support.type.exception",
+        "keyword.control.new.java",
+        "keyword.operator.instanceof.java",
       ],
       "settings": {
         "foreground": "#d1e085"
@@ -493,6 +526,7 @@
     {
       "scope": [
         "entity.name.function.decorator.python",
+        "storage.type.annotation.java",
       ],
       "settings": {
         "foreground": "#f99"
@@ -675,13 +709,31 @@
         "punctuation.separator",
         "punctuation.section.class",
         "punctuation.definition.decorator.python",
+        "punctuation.definition.block.sequence.item.yaml",
         "constant.other.ellipsis",
         "keyword.control.flow.block-scalar.literal.yaml",
         "keyword.control.flow.block-scalar.folded.yaml",
+        "punctuation.definition.anchor.yaml",
+        "punctuation.definition.alias.yaml",
         "entity.name.tag.reference",
         "punctuation.terminator.rule",
         "punctuation.separator.key-value",
         "keyword.other.unit.percentage",
+        "punctuation.section.function.begin.python",
+        "punctuation.other.jinja",
+        "punctuation.definition.entity.html",
+        "punctuation.terminator.java",
+        "keyword.operator.assignment.java",
+        "punctuation.separator.delimiter.java",
+        "keyword.operator.comparison.java",
+        "storage.type.function.arrow.java",
+        "punctuation.definition.annotation.java",
+        "keyword.control.ternary.java",
+        "punctuation.definition.parameters.varargs.java",
+        "punctuation.eq.toml",
+        "punctuation.terminator.case-clause.shell",
+        "keyword.operator.logical.shell",
+        "storage.type.function.arrow.js",
       ],
       "settings": {
         "foreground": "#fff2b3"
@@ -749,19 +801,7 @@
       }
     },
     {
-      "scope": "punctuation.section.property-list",
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
       "scope": "entity.other.jinja.delimiter",
-      "settings": {
-        "foreground": "#c0f0ff"
-      }
-    },
-    {
-      "scope": "punctuation.other.jinja",
       "settings": {
         "foreground": "#c0f0ff"
       }
@@ -800,7 +840,13 @@
         "keyword.control.rust",
         "keyword.control.nim",
         "keyword.control.dart",
-        "keyword.control.trycatch"
+        "keyword.control.trycatch",
+        "keyword.control.try",
+        "keyword.control.catch",
+        "keyword.control.finally",
+        "keyword.control.java",
+        "keyword.control.jinja",
+        "keyword.control.shell",
       ],
       "settings": {
         "foreground": "#80d4ff"
@@ -850,12 +896,6 @@
       "scope": "storage.modifier",
       "settings": {
         "foreground": "#C3D98D"
-      }
-    },
-    {
-      "scope": "storage.modifier.extends",
-      "settings": {
-        "foreground": "#ADCCB7"
       }
     },
     {
@@ -925,6 +965,10 @@
         "punctuation.definition.list.end.python",
         "punctuation.definition.dict.begin.python",
         "punctuation.definition.dict.end.python",
+        "punctuation.definition.sequence.begin.yaml",
+        "punctuation.definition.sequence.end.yaml",
+        "punctuation.definition.mapping.begin.yaml",
+        "punctuation.definition.mapping.end.yaml",
         "punctuation.definition.inheritance.begin.python",
         "punctuation.definition.inheritance.end.python",
         "punctuation.definition.begin.bracket.round.go",
@@ -945,8 +989,38 @@
         "constant.character.brace",
         "constant.character.paren",
         "punctuation.section.property-list",
-        "punctuation.section.function",
         "punctuation.definition.attribute-selector",
+        "punctuation.section.function",
+        "punctuation.section.class.begin.bracket.curly.java",
+        "punctuation.section.class.end.bracket.curly.java",
+        "punctuation.section.method.begin.bracket.curly.java",
+        "punctuation.section.method.end.bracket.curly.java",
+        "punctuation.definition.parameters.begin.bracket.round.java",
+        "punctuation.definition.parameters.end.bracket.round.java",
+        "punctuation.section.block.begin.bracket.curly.java",
+        "punctuation.section.block.end.bracket.curly.java",
+        "punctuation.section.try.begin.bracket.curly.java",
+        "punctuation.section.try.end.bracket.curly.java",
+        "punctuation.section.catch.begin.bracket.curly.java",
+        "punctuation.section.catch.end.bracket.curly.java",
+        "punctuation.section.finally.begin.bracket.curly.java",
+        "punctuation.section.finally.end.bracket.curly.java",
+        "punctuation.section.inner-class.begin.bracket.curly.java",
+        "punctuation.section.inner-class.end.bracket.curly.java",
+        "punctuation.section.enum.begin.bracket.curly.java",
+        "punctuation.section.enum.end.bracket.curly.java",
+        "punctuation.section.array-initializer.begin.bracket.curly.java",
+        "punctuation.section.array-initializer.end.bracket.curly.java",
+        "punctuation.section.try.resources.begin.bracket.round.java",
+        "punctuation.section.try.resources.end.bracket.round.java",
+        "punctuation.bracket.square.java",
+        "punctuation.bracket.round.java",
+        "punctuation.bracket.angle.java",
+        "punctuation.separator.dot",
+        "punctuation.definition.array.toml",
+        "punctuation.definition.table.toml",
+        "punctuation.definition.table.inline.toml",
+        "punctuation.definition.binding-pattern.object.js",
       ],
       "settings": {
         "foreground": "#b3e5ff",
